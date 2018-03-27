@@ -63,7 +63,3 @@ plt.xlabel('Year')
 plt.ylabel('R-Squared')
 plt.show()
 
-#Problem 2
-url_file = urllib.request.urlopen('https://github.com/cs109/2014_data/blob/master/countries.csv')
-country_df = pd.read_csv(url_file)
-
